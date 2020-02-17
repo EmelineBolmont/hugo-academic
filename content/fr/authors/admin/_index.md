@@ -29,7 +29,7 @@ education:
   courses:
   - course: Doctorat en astrophysique
     institution: Laboratoire d'Astrophysique de Bordeaux, France
-    year: 2012
+    year: 2013
   - course: Licence et Master en Physique
     institution: Ecole Normale Supérieure, Lyon, France
     year: 2010
