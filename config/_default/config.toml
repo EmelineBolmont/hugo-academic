@@ -5,7 +5,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "Academic"
+title = "Emeline Bolmont"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -13,7 +13,7 @@ baseurl = "/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = ""
+copyright = "&copy; Emeline Bolmont"
 
 ############################
 ## Advanced options below ##
@@ -35,6 +35,14 @@ paginate = 10  # Number of items per page in paginated lists.
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[languages]
+  [languages.en]
+    title = "Emeline Bolmont"
+    weight = 1
+  [languages.fr]
+    title = "Emeline Bolmont"
+    weight = 2
 
 [outputs]
   home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
